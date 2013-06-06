@@ -141,3 +141,8 @@
   font-family: Monaco, "Andale Mono", monospace;
 
 }
+
+.rwd .reveal .state-background {
+  background: url('../../images/rwd.jpg') no-repeat;
+  background-size: 100%;
+}

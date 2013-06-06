@@ -58,10 +58,188 @@
 			</section>
 
 			<section>
-				<h3>
-					What <strong>Librarians</strong> <strike>know</strike> about the web
-				</h3>
+				<h2>
+					What we <strong>know</strong>	
+					<span class="fragment" data-fragment-index="3">...</span>
+				</h2>
+				<ul>
+					<li class="fragment" data-fragment-index="1">
+						Users don't scroll.
+					</li>
+					<li class="fragment" data-fragment-index="2">
+						The front page is important!
+					</li>
+				</ul>
+
+				<small class="fragment" data-fragment-index="4">Is that it?</small>
 			</section>
+
+			<section>
+					<img src="images/laptop.png" style="position: relative; z-index: 1;">
+
+					<p>15.5" Laptop / 1366 xw 768</p>
+					<small class="fragment">that's about 7 vertical inches</small>
+
+					<img class="fragment" data-fragment-index="1" src="images/laptop--browser_window.png" style="position: relative; top: -604px; width: 72%;">
+
+					<img class="fragment" data-fragment-index="4" src="images/laptop--header.png" style="position: relative; top: -975px; width: 71%; left: 91px;">
+
+					<img class="fragment" data-fragment-index="2" src="images/laptop--keyword_search.png" style="position: relative; top: -914px; left: -344px;">
+
+					<img class="fragment" data-fragment-index="3" src="images/laptop--tab_search.png" style="position:relative; top: -1017px; left: 237px; width: 33%;">
+
+					<img class="fragment" data-fragment-index="6" src="images/laptop--ask-a-librarian.png" style="position: relative; top: -1046px; left: -253px;">
+
+					<img class="fragment" data-fragment-index="5" src="images/laptop--quick_menu.png" style="position: relative; top: -915px; left: -410px;">
+
+					<img class="fragment" data-fragment-index="7" src="images/laptop--events.png" style="position: relative; top: -974px; left: -73px;">
+
+					<img class="fragment" data-fragment-index="8" src="images/laptop--extras.png" style="position: relative; top: -1018px; width: 33%; left: -6px;">
+
+					<!--<img class="fragment" data-fragment-index="9" src="images/laptop--dig.png" style="position:relative; top:-1367px; width: 73%;">-->
+
+					<img class="fragment" data-fragment-index="9" src="images/laptop--example.png" style="position: relative; top: -1426px; left: -2px; width: 73%;">
+
+			</section>
+
+			<section style="text-align: left;">
+				<section>
+
+					<h3>Staying above the fold</h3>
+					requires that we know where the fold is.
+
+					<h1 class="fragment">We don't.</h1>
+
+				</section>
+
+				<section data-state="rwd">
+
+				</section>
+				<section>
+				<h3>The <strong>Myth</strong> of the Fold</h3>
+				<p>
+					is pervasive. The powerful assumption that <b>users don't scroll</b> <em>seems</em> observant - it feels right. 
+				</p> <br> 
+				<h3>We just can't prove it ...</h3>
+				<p>
+					
+					<small><b>Consider</b> the
+						<a href="http://blog.clicktale.com/2007/10/05/clicktale-scrolling-research-report-v20-part-1-visibility-and-scroll-reach/">ClickTale Scrolling Report</a> / <a href="http://www.useit.com/alertbox/scrolling-attention.html">Jakob Nielsen's Alertbox: Scrolling and Attention</a> / <a href="http://www.boxesandarrows.com/view/blasting-the-myth-of">Blasting the Myth of the Fold</a> / <a href="http://www.cxpartners.co.uk/cxblog/the_myth_of_the_page_fold_evidence_from_user_testing/">The Myth of the page Fold: Evidence from User Testing</a> 
+					</small>
+				</p>
+
+				<h1 style="text-align:center;">↓</h1>
+				</section>
+
+				<section>
+					<h3>Users scroll through</h3>
+					<h2>single types of content</h2>
+					<h3>and <strong>backward through time</strong></h3>
+					<img src="images/scrolling.gif">
+				</section>
+			</section>
+
+			<section style="text-align: left;">
+				<h3>The Fold as <strong>Antipattern</strong></h3>
+				<p>
+					We can't deny the formative power <strong>"the fold"</strong> has in a design committee, especially for a library website, which must sometimes be built to the expectations of many stakeholders. <span class="fragment">There can only be so much on the front page above the fold ... </span>
+				</p>
+
+				<p class="fragment" style="text-align: right;">unless you collapse, float, and cycle through large uncompressed images with javascript.
+				</p>
+
+				<p class="fragment" style="text-align: right;"><small>
+					... anything to make the committee go home, amirite?</small>
+				</p>
+
+			</section>
+
+			<section>
+				<section>
+					<h1>Carousels</h1>
+					<img src="images/carousel.png">
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h3>Harmless enough ...</h3>
+					<pre><code>&lt;section id="carousel"&gt;
+  &lt;ul class="slides"&gt;
+    &lt;li&gt;
+      &lt;img src="http://placekitten.com/400/400" alt="A cat!"&gt;
+    &lt;/li&gt;
+    &lt;!-- repeat --&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;!-- Javascript
+======================
+--&gt; &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+       $('.slides').startCarousel();
+    &lt;/script&gt;
+
+</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h4>Salt Lake City Public Library has one ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl23.png">
+					
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h4>and Cleveland Public Library ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl33.png">
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h4>and Iowa City ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl43.png">
+					<h1>↓</h1>
+				</section>	
+
+				<section>
+					<h4>Princeton too ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl53.png">
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h4>Columbus Metro ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl63.png">
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h4>Carnegie Library of Pitt. ...</h4>
+					<img src="http://www.mattanderson.org/blog/wp-content/uploads/2013/02/021213_0126_20GreatPubl73.png">
+					<h1>↓</h1>
+				</section>
+
+				<section>
+					<h1>+ 11 others</h1>
+					<h3>17 / 20 Great Public Library Sites</h3>
+					<small><a href="http://www.mattanderson.org/blog/2013/02/11/20-great-public-library-websites/">"20 Great Public Library Websites" compiled by Matt Anderson</a></small>
+				</section>
+			</section>
+
+			<section>
+				<h1>Performance</h1>
+				
+			</section>
+
+			<section>
+				Notes: Carousels are the most prevalent common design element on the web. They're everywhere and they have a cool factor. I joke that they exist only to please design committees, but they really do seem to serve an important purpose - in an eye-catching way, promote content. A good carousel carries with it a lot of connotations about forward-thinking the library is, how modern, how digital, how not an old card catalog. On the 20 Great Public Library Websites, all of them? have carousels. For all the pizzazz and utility it adds there are costs.
+
+				Consider the most obvious: a slideshow is a bunch of images, performance. Users expect .... Additionally, this expectation of speed has a one-for-one relationship with the user's efficiency at browsing. This efficiency is built on text and clutter and ad blindness. Navigating through the BS. Click rate for carousels is ridiculously low. People know this, so the idea is that they auto-scroll so that the third or fourth slide might slip into view. This in turn has a tremendous drawback on usbaility.  
+			</section>
+
+
 
 			<section>
 <h2>Some Slide</h2>
