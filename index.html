@@ -96,11 +96,7 @@
 					<h1 class="fragment">We can't.</h1>
 					<h1 class="fragment">
 						↓
-					</h1>					
-					
-					<small class="fragment">
-						... under the fold :)
-					</small>
+					</h1>
 
 
 				</section>
@@ -108,14 +104,11 @@
 				<section data-state="rwd">
 
 				</section>
-				<section style="text-align:left;">
-				<h3>The <strong>Myth</strong> of the Fold</h3>
-				<p>
-					is pervasive. The powerful assumption that <b>users don't scroll</b> <em>seems</em> observant - it feels right. 
-				</p> <br> 
-				<h3>
-					A <strong>myth</strong>conception.
-				</h3>
+				<!--<section>
+				
+				<h2>
+					<strong>Myth</strong>conception.
+				</h2>
 				<p>
 					
 					<small><b>Consider</b> the
@@ -123,7 +116,12 @@
 					</small>
 				</p>
 
-				<h1 style="text-align:center;">↓</h1>
+				<aside class="notes">
+					<h3>The <strong>Myth</strong> of the Fold</h3>
+					<p>
+					is pervasive. The powerful assumption that <b>users don't scroll</b> <em>seems</em> observant - it feels right. 
+					</p> <br> 
+				</aside>
 				</section>
 
 				<section>
@@ -131,19 +129,19 @@
 					<h2>single types of content</h2>
 					<h3>and <strong>backward through time</strong></h3>
 					<img src="images/scrolling.gif">
-				</section>
+				</section>-->
 			</section>
 
 			<section style="text-align: left;">
 				<h3>The <strong>Antipattern</strong></h3>
 				<p>
-					We can't deny the formative power <strong>"the fold"</strong> has in a design committee, especially for a library website, which must sometimes be built to the expectations of many stakeholders. <span class="fragment">There can only be so much on the front page above the fold ... </span>
+					We can't deny the formative power <strong>"the fold"</strong> has in a design committee, especially for a library website, which must sometimes be built to the expectations of many stakeholders. There can only be so much on the front page above the fold ... 
 				</p>
 
-				<p class="fragment" style="text-align: right;">unless you collapse, float, and cycle through large uncompressed images with javascript.
+				<p style="text-align: right;">unless you collapse, float, and cycle through large uncompressed images with javascript.
 				</p>
 
-				<p class="fragment" style="text-align: right;"><small>
+				<p style="text-align: right;"><small>
 					... anything to make the committee go home, amirite?</small>
 				</p>
 
@@ -151,13 +149,10 @@
 
 			<section>
 				<section>
-					<h1>Carousels</h1>
 					<img src="images/carousel.png">
-					<h1>↓</h1>
 				</section>
 
 				<section>
-					<h3>Harmless enough ...</h3>
 					<pre><code>&lt;section id="carousel"&gt;
   &lt;ul class="slides"&gt;
     &lt;li&gt;
@@ -170,6 +165,7 @@
 &lt;!-- Javascript
 ======================
 --&gt; &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script src="scripts/carousel.js"&gt;&lt;/script&gt;
     &lt;script&gt;
        $('.slides').startCarousel();
     &lt;/script&gt;
@@ -392,6 +388,14 @@
 				</section>
 
 				<section>
+					<img src="images/banner-blindness.jpg">
+
+					<aside class="notes">
+						Psst. Go back up.
+					</aside>					
+				</section>
+
+				<section>
 				<img src="images/laptop.png" style="position: relative; z-index: 1;">
 
 				<p>The Reality of User Engagement</p>
@@ -417,7 +421,7 @@
 
 				<!--<img class="fragment" data-fragment-index="9" src="images/laptop--dig.png" style="position:relative; top:-1367px; width: 73%;">-->
 
-				<img class="fragment" data-fragment-index="9" src="images/laptop--example.png" style="position: relative; top: -1426px; left: -2px; width: 73%;">
+				<img class="fragment" data-fragment-index="9" src="images/laptop--heatmap.png" style="position: relative; top: -1426px; left: -2px; width: 73%;">
 					
 					<aside class="notes">
 						Carousels on our library websites are first and foremost promotional tools. But the Nielsen group shows that because Carousels are so prevalent, because sidebar ads, stock images, etc., are such a core experience of surfing the web users - who cannot be considered luddites, who are born into this, who expect speed, block cruft. 
@@ -432,16 +436,6 @@
 				</section>
 
 				<section>
-					<img src="images/banner-blindness.jpg">
-
-					<aside class="notes">
-						Psst. Go back up.
-					</aside>					
-				</section>
-			</section>
-
-			<section>
-
 				<blockquote style="text-align: left;">
 					Approximately <b>1%</b> of visitors click on a feature. ... Of these clicks, 84% were on stories in position 1 with the rest split fairly evenly between the other four (~4% each).
 
@@ -453,9 +447,9 @@
 
 					http://weedygarden.net/2013/01/carousel-stats/
 				</aside>
-			</section>
+				</section>
 
-			<section>
+				<section>
 				<blockquote style="text-align: left;">
 
 					It didn't come as too much of a surprise that the slide in first position got the most attention, but I wasn't expecting to see such a large skew. The poor slides in position eight were barely ever seeing the light of day.
@@ -466,45 +460,37 @@
 				<img src="images/carousel-traffic-spread.png">
 
 				<aside class="notes">http://yorkwebteam.blogspot.co.uk/2013/03/are-homepage-carousels-effective-aka.html</aside>
+				</section>
 
 			</section>
 
 			<section>
-				<section data-state="alert">
-					<h2>The Rains of <strike>Castamere</strike></h2>
-					<h1>Carousels</h1>
 
-					<small>
-						Haters gonna hate. Does it get worse?
-					</small>
-
-					<h1>↓</h1>
-				</section>
-
-				<section data-state="blackout">
-
-					<h1>Movement</h1>
-					<img src="images/carousel-rotate.gif">
-					<h1>↓</h1>
+				<section>
 					
+					<h1>Moving UI</h1>
+
+					<pre class="codepen" data-height="300" data-type="result" data-href="ysbAx" data-user="michaelschofield" data-safe="true"><code></code><a href="http://codepen.io/michaelschofield/pen/ysbAx">Check out this Pen!</a></pre>
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+
+					<blockquote class="fragment" style="text-align: left;"> <small>
+						<strong>Deadly.</strong> Accordions and carousels should show a new panel only when users ask for it. Otherwise, it should stand still and let users read the information in peace, without having the rug yanked from under them. As our user said about Siemens' big rotating box: "I didn't have time to read it. It keeps flashing too quickly." 
+						<cite style="float: right;">Jakob Nielsen</cite>
+					</small>
+					</blockquote>
 					<aside class="notes">
 						Sliders, carousels, slideshows, rotators - these are descriptive of function. We often set carousels to auto-rotate, to auto-slide or fade-in a new image so patrons will have the chance to see that second, third,b or fourth slide. (hit b to prevent vomiting)
 					</aside>
 				</section>
 
-				<section data-state="cobalt">
+				<section style="text-align: left;">
+					<h2>How Moving UI influences</h2>
 					<h1>Accessibility</h1>
-
 					<ul>
 						<li>
-							Moving UI elements usually reduce accessibility 
-							<ul>
-								<li>
-									<a href="http://a11yproject.com/posts/understanding-vestibular-disorders/">A Primer to Vestibular Disorders</a>
+							<a href="http://a11yproject.com/posts/understanding-vestibular-disorders/">A Primer to Vestibular Disorders</a>
 								</li>
 								<li>35% of adults aged 40 years or older in the United States have experienced some form of vestibular dysfunction.</li>
-							</ul>
-						</li>
 
 						<li>
 							The ".08 second sweet spot"
@@ -525,30 +511,41 @@
 			</section>
 
 			<section>
-			    <p class="fragment grow">grow</p>
-			    <p class="fragment shrink">shrink</p>
-			    <p class="fragment roll-in">roll-in</p>
-			    <p class="fragment fade-out">fade-out</p>
-			    <p class="fragment highlight-red">highlight-red</p>
-			    <p class="fragment highlight-green">highlight-green</p>
-			    <p class="fragment highlight-blue">highlight-blue</p>
+				<img src="images/broken-carousel.jpg">
 			</section>
 
-<section>
-<p class="fragment" data-fragment-index="3">Appears last</p>
-<p class="fragment" data-fragment-index="1">Appears first</p>
-<p class="fragment" data-fragment-index="2">Appears second</p>
-</section>			
+			<section style="text-align: left;">
+				<h2>The <strong>point</strong></h2>
+				<p>
+					is that <strong>user-centric libraries</strong> are driven by user data - and all the data says, "simplify!" The summons for a website to be device agnostic demands a simple design. All the conventions that emerged from the fear of the fold--like carousels, complex search widgets, bloated header menus, three or four column cramped designs, <b>font-sizes less than 16px</b>--are detriments, and they'll be increasingly detrimental as desktops are abandoned in favor of smaller devices. 
+				</p>
 
-<section>
-<pre><code data-trim>
-(def lazy-fib
-(concat
-[0 1]
-((fn rfib [a b]
-    (lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
-</code></pre>
-</section>
+				<aside class="notes">
+					If you look around, Library Websites are designed to convince people that libraries are more than just books, that there is a place for them in the 21st century. This has meant crowding out the available screen with complex CSS grids, columns, gimmickry with jQuery, bloated drop-down menus.
+
+					There is something to prove having a cool website. But these have been anything but user-centric.
+				</aside>
+			</section>
+
+			<section style="text-align: left;">
+				<h2><strong>Remember</strong></h2>
+				<ul>
+					<li>Performance is a feature.</li>
+					<li>Users bypass everything that gets in the way of the content.</li>
+					<li>Anything that looks, moves, sounds, smells, or tastes like an ad is a blindspot.</li>
+					<li>Embrace whitespace. Content does not have to be cramped. Users scroll.</li>
+					<li>Don't sacrifice accessibility for pizzazz.</li>
+					<li>
+						The library website doesn't exist for your department heads, your colleagues, the stakeholders, or the design committee. Remember who pays the taxes / tuition.
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h1>DFTBA</h1>
+				<img src="images/dftba.png">
+			</section>
+	
 			
 		</div><!--/.slides-->
 	</div><!--/.reveal-->
