@@ -42,17 +42,28 @@
 			<section>
 				<img src="images/title-slide.png" style="position: relative; z-index: 1;">
 				<img class="fragment fade-out" data-fragment-index="2" src="images/title-slide__carousel.png" style="position: relative; top: -668px; z-index:0;">
-
 				<img class="fragment fade-in" data-fragment-index="1" src="images/title-slide__my-head.png" style="position: relative; top: -1238px; right: -159px;">
-
 				<div class="fragment fade-in" data-fragment-index="3" style="text-align: left; position: relative; top: -1649px; left: 125px;">
 					<ul style="list-style-type: none; margin: 0;">
 						<li>
 							Front-End Librarian	<br> 
-							<small class="fragment">Librarian of <strong>Web</strong> Services and ASLRITC</small>
+							<small class="fragment">Librarian of <strong>Web</strong> Services at the ASLRITC</small>
 						</li>
-						<li class="fragment">Note 2</li>
-						<li class="fragment">Note 3</li>
+						<small>
+						<li class="fragment">
+							<b>Slides:</b> <a href="http://talks.ns4lib.com">talks.ns4lib.com</a>
+							<ul>
+								<li>Hit <b>S</b> for Speaker Notes</li>
+								<li><b>ESC</b> for Overhead View</li>
+							</ul>
+						</li>
+						<li class="fragment"><b>Twitter:</b> <a href="http://twitter.com/gollydamn">@gollydamn</a></li>
+						<li class="fragment"><b>Web for Libraries Weekly:</b> 
+							<ul>
+								<li><a href="http://weekly.ns4lib.com">weekly.ns4lib.com</a></li>
+							</ul>
+						</li>
+						</small>
 					</ul>
 				</div>
 			</section>
@@ -60,7 +71,7 @@
 			<section>
 					<img src="images/laptop.png" style="position: relative; z-index: 1;">
 
-					<p>15.5" Laptop / 1366 xw 768</p>
+					<p>15.5" Laptop / 1366 x 768</p>
 					<small class="fragment">that's about 7 vertical inches</small>
 
 					<img class="fragment" data-fragment-index="1" src="images/laptop--browser_window.png" style="position: relative; top: -604px; width: 72%;">
@@ -89,8 +100,8 @@
 				<section>
 
 					<div style="text-align: left;">
-					<h3>Staying above the fold</h3>
-					requires that we know where the fold is.
+					<h3>Staying <b>above</b> the fold</h3>
+					requires that we know where the fold <em>is</em>.
 					</div>
 
 					<h1 class="fragment">We can't.</h1>
@@ -224,57 +235,79 @@
 
 			</section>
 
-			<section style="text-align: left;">
+			<section style="text-align:left;">
 				<section>
-				<h2>State of the Web</h2>
+				<h1>Today's Web</h1>
 
 				<ul>
-					<li>At the end of 2012, 3.6M smartphones entered the world per day (as oppose to 371k births).</li>
-
-					<li>
-						As of June 5th, 56% of American Adults owns one of these.
+					<li class="fragment"> 
+						3.6M new smartphones every day
+						<ul class="fragment">
+							<li>371k births</li>
+						</ul>
 					</li>
 
-					<li>
-						31% of them use their phones for the <u>majority</u> of their access to the web.
+					<li class="fragment">
+						56% of American adults has one
+						<ul>
+							<li>
+								31% use phones for the majority of internet access
+							</li>
+							<li>
+								Of course, preference among all age groups is shifting away from
+								desktops and laptops toward mobile devices.
+							</li>
+						</ul>
+						<li class="fragment">
+							For 25% of Americans, their phone is their one and only device.
+						</li>
 					</li>
-
-					<li>
-						Preference among all age groups is shifting away from desktops and laptops toward mobile devices.
-					</li>
-
-					<li>
-						For 25% of Americans, their phone is their one and onle device.
-					</li>
-
 				</ul>
+
+				<aside class="notes">
+					At the end of 2012, 3.6M smartphones entered the world per day (as oppose to 371k births).
+					As of June 5th, 56% of American Adults owns one of these.
+					31% of them use their phones for the majority of their access to the web.
+					Preference among all age groups is shifting away from desktops and laptops toward mobile devices.
+					For 25% of Americans, their phone is their one and onle device.
+				</aside>
 			</section>
 				<section>
-					<h2>The Bandwidth Divide</h2>
+					<h3>Access Increases</h3>
+					<h2>Bandwidth Decreases</h2>
 
 					<ul>
-
-					<li>
-						The average size of a web page in 2012 was 1.25MB. (http://wpdaily.co/responsive-server-side/).
-					</li>
-
-					<li>
-						The mean time to load just a 700kb website on your desktop: 6.9 secionds; from a phone? 10.2seconds.
-					</li>
-
-					<li>
-						The Obama 2012 Campaign learned the hard way that a 3MB website won't even load on certain mobile devices (Error 413: Entity Too Large)
-					</li>
-
-					<li>
-						<b>Double Whammy:</b> Images are between 52% and 59% of the payload. (http://www.webperformancetoday.com/2013/06/05/web-page-growth-2010-2013/) - and javascript load time comes in second.
-					</li>
-
-					<li>
-						And yet 3G and 4G/LTE networks are getting <i>slower</i>
-					</li>
-
+						<li class="fragment">
+							Average size of a web page: 1.25MB
+							<ul>
+								<li>
+									<b>Context:</b> the mean time to load 700KB
+									<ul>
+										<li>... from desktop: 6.9 seconds</li>
+										<li>... from phone: 10.2 seconds</li>
+									</ul>
+								</li>
+								<li class="fragment">For certain devices, 3MB triggers <b>Error 413</b> <span class="fragment">- entity too large</span></li>
+							</ul>
+						</li>
+						<li class="fragment">
+							Images responsible for 52-59% of the payload.
+							<ul>
+								<li>Javascript load time comes in second.</li>
+							</ul>
+						</li>
+						<li class="fragment">
+							All the while, 3G and 4G LTE networks are getting slower.
+						</li>
 					</ul>
+
+					<aside class="notes">
+						The average size of a web page in 2012 was 1.25MB. (http://wpdaily.co/responsive-server-side/).
+						The mean time to load just a 700kb website on your desktop: 6.9 secionds; from a phone? 10.2seconds.
+						The Obama 2012 Campaign learned the hard way that a 3MB website won't even load on certain mobile devices (Error 413: Entity Too Large)
+						Double Whammy: Images are between 52% and 59% of the payload. (http://www.webperformancetoday.com/2013/06/05/web-page-growth-2010-2013/) - and javascript load time comes in second.
+						And yet 3G and 4G/LTE networks are getting slower
+					</aside>
 
 				</section>
 
@@ -339,7 +372,7 @@
 				</section>
 
 				<section>
-					<h3>Entertaining and informative</h3>
+					
 					<img src="images/death-to-bs.jpg"> <br>
 					<small><a href="http://www.slideshare.net/bradfrostweb/death-to-bullshit">Slideshare</a></small>
 				</section>
@@ -515,9 +548,9 @@
 			</section>
 
 			<section style="text-align: left;">
-				<h2>The <strong>point</strong></h2>
+				<h1>The <strong>point</strong></h1>
 				<p>
-					is that <strong>user-centric libraries</strong> are driven by user data - and all the data says, "simplify!" The summons for a website to be device agnostic demands a simple design. All the conventions that emerged from the fear of the fold--like carousels, complex search widgets, bloated header menus, three or four column cramped designs, <b>font-sizes less than 16px</b>--are detriments, and they'll be increasingly detrimental as desktops are abandoned in favor of smaller devices. 
+					is that <strong>user-centric libraries</strong> must <b>simplify.</b> The summons for a website to be device agnostic demands a <b>simple design</b>. All the conventions that emerged from the fear of the fold--like carousels, complex search widgets, bloated header menus, three or four column cramped designs, <b>font-sizes less than 16px</b>--are detriments, and they'll be increasingly detrimental as desktops are abandoned in favor of smaller devices. 
 				</p>
 
 				<aside class="notes">
@@ -528,21 +561,46 @@
 			</section>
 
 			<section style="text-align: left;">
-				<h2><strong>Remember</strong></h2>
+				<h1><strong>Remember</strong></h1>
 				<ul>
-					<li>Performance is a feature.</li>
-					<li>Users bypass everything that gets in the way of the content.</li>
-					<li>Anything that looks, moves, sounds, smells, or tastes like an ad is a blindspot.</li>
-					<li>Embrace whitespace. Content does not have to be cramped. Users scroll.</li>
-					<li>Don't sacrifice accessibility for pizzazz.</li>
-					<li>
-						The library website doesn't exist for your department heads, your colleagues, the stakeholders, or the design committee. Remember who pays the taxes / tuition.
+					<li class="fragment"><b>Performance</b> is a Feature</li>
+					<li class="fragment">
+						Users' capacity for cruft is rapidly diminishing.
+						<ul>
+							<li>
+								Banner blindness
+
+								<ul>
+									<li>
+										Auto-movement feels like an ad
+									</li>
+									<li>
+										Choose banner or feature text carefully. Empty content 
+										trains repeat-users to look over that element.
+									</li>
+								</ul>
+							</li>
+							<li class="fragment">
+								Embrace whitespace.
+							</li>
+						</ul>
+					</li>
+					<li class="fragment">Don't sacrifice accessibility for pizzazz</li>
+					<li class="fragment">
+						Patrons pay for library websites. 
 					</li>
 				</ul>
+				<aside class="notes">
+					Performance is a feature.
+					Users bypass everything that gets in the way of the content.
+					Anything that looks, moves, sounds, smells, or tastes like an ad is a blindspot.
+					Embrace whitespace. Content does not have to be cramped. Users scroll.
+					Don't sacrifice accessibility for pizzazz.
+					The library website doesn't exist for your department heads, your colleagues, the stakeholders, or the design committee. Remember who pays the taxes / tuition.
+				</aside>
 			</section>
 
 			<section>
-				<h1>DFTBA</h1>
 				<img src="images/dftba.png">
 			</section>
 	

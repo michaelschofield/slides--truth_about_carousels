@@ -47,8 +47,9 @@
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #51483d;
-  text-decoration: none;
+  cursor: pointer;
+  color: #021321;
+  
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   -ms-transition: color .15s ease;
@@ -57,7 +58,6 @@
 
 .reveal a:not(.image):hover {
   color: #8b7c69;
-  text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
