@@ -23,10 +23,6 @@
 	<!-- Syntax Highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-	<style type="text/css">
-
-	</style>
-
 <!-- Javascript
 ======================
 -->	<script>
@@ -51,21 +47,30 @@
 						</li>
 						<small>
 						<li class="fragment">
-							<b>Slides:</b> <a href="http://talks.ns4lib.com">talks.ns4lib.com</a>
+							<b>Slides:</b> <a href="http://talks.ns4lib.com/truth-about-carousels">talks.ns4lib.com/truth-about-carousels</a>
 							<ul>
 								<li>Hit <b>S</b> for Speaker Notes</li>
 								<li><b>ESC</b> for Overhead View</li>
 							</ul>
 						</li>
 						<li class="fragment"><b>Twitter:</b> <a href="http://twitter.com/gollydamn">@gollydamn</a></li>
-						<li class="fragment"><b>Web for Libraries Weekly:</b> 
-							<ul>
-								<li><a href="http://weekly.ns4lib.com">weekly.ns4lib.com</a></li>
-							</ul>
-						</li>
 						</small>
 					</ul>
 				</div>
+
+				<aside class="notes">
+					<ol>
+						<li>
+							Introduction
+							<ol>
+								<li>
+									Over the next half hour we'll use the most popular design element of the web--the carousel--as a vehicle to understand first how library websites come to be and then compare the assumptions that lead to an element like the carousel against how people interact with the web.
+								</li>
+							</ol>
+						</li>
+					</ol>
+				</aside>
+
 			</section>
 
 			<section>
@@ -94,6 +99,26 @@
 
 					<img class="fragment" data-fragment-index="9" src="images/laptop--example.png" style="position: relative; top: -1426px; left: -2px; width: 73%;">
 
+					<aside class="notes">
+						<ol>
+							<li>
+								Let's take a fairly common screen size that roughly equates to about 7" vertical real-estate.
+							</li>
+							<li>The bread and butter of library websites is arguably its search, so that's where we'll start. Except libraries are much more than books, right? We subscribe to database vendors, and LibGuides, and have discovery layers - so our search is often complicated.</li>
+
+							<li>This is situated beneath a banner with our logo and mission, and our menu.</li>
+
+							<li>We add a popular menu for ease - because, hey, we recognize we are overabundant with info.</li>
+
+							<li>We want to advertise our 21st-centuryness.</li>
+
+							<li>-- wait, but what if patrons don't want to FIND but they want to DO, to interact? Let's add an event feed and some social icons.</li>
+
+							<li>Then, because we still want to advertise what's *new* and upcoming, we take a little inspiration from marketing and changeup--essentially--ads in a relatively prominent, above-the-fold position.</li>
+
+							<li>I only poke fun because we are all slaves of convention.</li>
+						</ol>
+					</aside>
 			</section>
 
 			<section>
@@ -109,38 +134,14 @@
 						↓
 					</h1>
 
+					<aside class="notes">
+						What is the problem with designing for the fold? We don't know where it is!
+					</aside>
 
 				</section>
 
-				<section data-state="rwd">
+				<section data-state="rwd"></section>
 
-				</section>
-				<!--<section>
-				
-				<h2>
-					<strong>Myth</strong>conception.
-				</h2>
-				<p>
-					
-					<small><b>Consider</b> the
-						<a href="http://blog.clicktale.com/2007/10/05/clicktale-scrolling-research-report-v20-part-1-visibility-and-scroll-reach/">ClickTale Scrolling Report</a> / <a href="http://www.useit.com/alertbox/scrolling-attention.html">Jakob Nielsen's Alertbox: Scrolling and Attention</a> / <a href="http://www.boxesandarrows.com/view/blasting-the-myth-of">Blasting the Myth of the Fold</a> / <a href="http://www.cxpartners.co.uk/cxblog/the_myth_of_the_page_fold_evidence_from_user_testing/">The Myth of the page Fold: Evidence from User Testing</a> 
-					</small>
-				</p>
-
-				<aside class="notes">
-					<h3>The <strong>Myth</strong> of the Fold</h3>
-					<p>
-					is pervasive. The powerful assumption that <b>users don't scroll</b> <em>seems</em> observant - it feels right. 
-					</p> <br> 
-				</aside>
-				</section>
-
-				<section>
-					<h3>Users scroll through</h3>
-					<h2>single types of content</h2>
-					<h3>and <strong>backward through time</strong></h3>
-					<img src="images/scrolling.gif">
-				</section>-->
 			</section>
 
 			<section style="text-align: left;">
@@ -156,11 +157,19 @@
 					... anything to make the committee go home, amirite?</small>
 				</p>
 
+				<aside class="notes">
+					The practice of designing for the fold treats the web as if it were print, an artifact of previous centuries. One of the repercussions is that we treat the web like a physical object, like a newspaper. In this way it seems intuitive to think that people don't scroll--which, generally, is untrue--and that the front page is the most important. For an institution that offers a lot but is at the same time very concerned with communicating just how much we offer, libraries tend to end up with very compact websites.
+				</aside>	
+
 			</section>
 
 			<section>
 				<section>
 					<img src="images/carousel.png">
+
+					<aside class="notes">
+						Just so we're on the same page, lets look at a carousel.
+					</aside>
 				</section>
 
 				<section>
@@ -230,6 +239,10 @@
 					</p>
 
 					<h1 style="text-align: center;">For whom?</h1>
+
+					<aside class="notes">
+						Who do they actually work for? Well, the stakeholders. The committee or whomever responsible for having the library website built. Carousels are convenient, beloved by marketing. They are perfect for appeasing the various departments, representing them and the stuff they do in a prominent position.
+					</aside>	
 
 				</section>
 
@@ -512,7 +525,12 @@
 					</small>
 					</blockquote>
 					<aside class="notes">
-						Sliders, carousels, slideshows, rotators - these are descriptive of function. We often set carousels to auto-rotate, to auto-slide or fade-in a new image so patrons will have the chance to see that second, third,b or fourth slide. (hit b to prevent vomiting)
+						<p>Sliders, carousels, slideshows, rotators - these are descriptive of function. We often set carousels to auto-rotate, to auto-slide or fade-in a new image so patrons will have the chance to see that second, third,b or fourth slide. (hit b to prevent vomiting)</p>
+						<p>
+						In fact at the Sherman we actually spent a lot of time determining the proper number of seconds to pause before rotation. We settled on 8 seconds. </p>
+
+						<p>
+						It makes sense that if people won't voluntarily click to the second or third slide, then a smoothe, unobstrusive rotation will help content in front of the user when in other cases they might not stumble on it. </p>
 					</aside>
 				</section>
 
